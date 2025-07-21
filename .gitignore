@@ -1,14 +1,6 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
-
-pkg/
-src/
+echo "auth/client_secrets.json
+auth/token.json
+downloads/
+tghrip_userbot.session
+__pycache__/
+*.pyc" > .gitignore
