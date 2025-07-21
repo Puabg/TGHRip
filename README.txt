@@ -1,7 +1,7 @@
 # TGHRip Bot - Deployment Guide
 
 1. Clone the repository or unzip the project folder:
-   git clone https://github.com/yourrepo/TGHRip.git
+   git clone https://github.com/Huntingbots2/TGHRip.git
 
 2. Enter the directory:
    cd TGHRip
