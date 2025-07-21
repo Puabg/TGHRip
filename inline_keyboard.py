@@ -37,4 +37,4 @@ async def send_upload_options(update: Update, context: ContextTypes.DEFAULT_TYPE
         [InlineKeyboardButton("📤 Telegram", callback_data="upload_telegram")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.callback_query.edit_message_text("Select upload destination:", reply_markup=reply_markup) Inline keyboard logic placeholder
+    await update.callback_query.edit_message_text("Select upload destination:", reply_markup=reply_markup)  # Inline keyboard logic placeholder
