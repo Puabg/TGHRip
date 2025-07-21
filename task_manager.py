@@ -12,4 +12,4 @@ def get_task(user_id):
 
 def reset_task(user_id):
     if user_id in user_tasks:
-        del user_tasks[user_id] Task manager logic placeholder
+        del user_tasks[user_id]  # Task manager logic placeholder
