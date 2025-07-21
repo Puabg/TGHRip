@@ -39,7 +39,7 @@ async def rip(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     if len(context.args) < 2:
-        await update.message.reply_text("Usage: /rip <url> <decryption_key>")
+        await update.callback_query.edit_message_text("Select upload destination:", reply_markup=reply_markup)  # Inline keyboard logic placeholder
         return
 
     url, key = context.args[0], context.args[1]
