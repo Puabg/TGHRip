@@ -8,9 +8,9 @@ from access_control import is_authorized
 config = ConfigParser()
 config.read("config.ini")
 
-TOKEN = config.get("TELEGRAM", "Token")
-OWNER_ID = int(config.get("TELEGRAM", "OwnerID"))
-AUTHORIZED_GROUP = int(config.get("TELEGRAM", "AuthorizedGroupID"))
+TOKEN = config.get("TELEGRAM", "8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8")
+OWNER_ID = int(config.get("TELEGRAM", "7991573040"))
+AUTHORIZED_GROUP = int(config.get("TELEGRAM", "-1002455868690"))
 
 logging.basicConfig(level=logging.INFO)
 
